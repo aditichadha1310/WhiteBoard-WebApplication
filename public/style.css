@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.tools-content{
+    width: 100vw;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tools{
+    display: flex;
+  
+    height: 80%;
+    width: 80%;
+    align-items:center;
+    justify-content : space-evenly;
+    border-radius: 17px;
+    box-shadow: 0 1px 3rem rgba(0, 0, 0, 0.175);
+   
+}
+.tool{
+    height: 54px;
+    width: 80px;
+    position: relative;
+}
+.tool img{
+    height: 100%;
+    width: 100%;
+}
+.drawing{
+}
+#canvas{
+}
+.tool-options{
+height:100px;
+width:150px;
+background-color: aqua;
+border-radius:20px;
+display:flex;
+flex-direction: column;
+align-items:center;
+justify-content : space-evenly;
+position: absolute;
+top: 70px;
+left: -32px;
+box-shadow: 0 1px 3rem rgba(0, 0, 0, 0.175);
+}
+.pencil-size{
+
+}
+.pencil-colors div{
+height:25px;
+width:25px;
+border-radius : 50%;
+
+}
+.pencil-colors{
+    height:25px;
+    width:25px;
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+.black{
+background-color: black;
+}
+.red{
+background-color:red;
+}
+.yellow{
+background-color: yellow;;
+}
+.blue{
+background-color:blue;
+}
+.active-tool{
+    background-color:lightgray;
+    border-radius:50%;
+    height:60px;
+    padding:6px;
+}
+.hide{
+    display:none;
+}
+.sticky{
+    position: absolute;
+    top: 251px;
+    left: 391px;
+    height:250px;
+    width:250px;
+    /* background-color:peachpuff; */
+}
+.sticky-nav{
+    height:15%;
+    background-color:turquoise;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.minimize{
+    height: 20px;
+    width: 20px;
+    background-color: lightslategray;
+    border-radius: 50%;
+    margin-right:5px;
+}
+.close{
+    background-color:black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right:10px;
+}
+
+
+.sticky-content{
+    height:85%;
+    /* background-color:black; */
+
+}
+.style-image{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+#sticky-text
+{
+
+   height: 100%;
+    width: 100%;
+    outline:none;
+    border:1px solid lightgray;
+    border-bottom-left-radius:10px;
+}
